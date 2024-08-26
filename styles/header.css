@@ -1,34 +1,26 @@
 header {
   padding-block: 32px;
-  font: var(--text-md);
-}
-
-header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  font: var(--text-md);
 }
 
 #profile {
   display: flex;
-
   gap: 32px;
+  flex-wrap: wrap;
 }
 
+/* `> div` significa primeiro nível de filho div */
 #profile > div {
-  max-width: 384px;
-}
-
-#profile img {
-  width: 176px;
-  height: 176px;
-  object-fit: cover;
-  border-radius: 50%;
+  max-width: 370px;
 }
 
 #profile h1 {
-  color: var(--text-color-primary);
   font: var(--text-lg);
+  color: var(--text-color-primary);
   margin-bottom: 8px;
 }
 
@@ -37,12 +29,16 @@ header .container {
   display: flex;
   flex-direction: column;
   gap: 16px;
-
   width: 280px;
+  padding-top: 20px;
 }
 
 #info li {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+
+#info li span {
+  line-height: 0;
 }

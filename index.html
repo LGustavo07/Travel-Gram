@@ -1,89 +1,95 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <title>travelgram | Perfil de viagens</title>
-    <link rel="stylesheet" href="/styles/index.css" />
-  </head>
-  <body>
-    <div class="bg-surface-color">
-      <nav class="container">
-        <a href="#" id="logo">
-          <img src="assets/Logo.svg" alt="Logomarca" />
-        </a>
-        <ul id="primary-menu">
-          <li>
-            <a href="#">
-              <img src="assets/icons/MagnifyingGlass.svg" alt="icone de lupa" />
-            </a>
-          </li>
-          <li><a href="#">Explorer</a></li>
-          <li><a href="#">Minhas viagens</a></li>
-          <li>
-            <a href="#">
-              <img src="assets/Profile pic.png" alt="image user" />
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <header>
-        <div class="container">
-          <div id="profile">
-            <img src="assets/Profile pic.png" alt="image user" />
-            <div>
-              <h1>Isabela Torres</h1>
-              <p>
-                Amante de viagens, cultura e gastronomia. 🌍✈️ <br />
-                Aqui compartilho as histórias registradas em cada clique, explorando
-                cantinhos fascinantes do nosso planeta a partir da movimentada cidade de
-                São Paulo. 🏙️📸
-              </p>
-            </div>
-          </div>
 
-          <ul id="info">
-            <li>
-              <img src="assets/icons/MapPin.svg" alt="icone de localização" />
-              <span>São Paulo, Brazil</span>
-            </li>
-            <li>
-              <img src="assets/icons/AirplaneTilt.svg" alt="icone de avião" />
-              <span>37 países</span>
-            </li>
-            <li>
-              <img src="assets/icons/Image.svg" alt="icone de iamgem" />
-              <span>240 fotos</span>
-            </li>
-          </ul>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travelgram | Perfil de viagens</title>
+  <link rel="stylesheet" href="styles/index.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="bg-surface-color">
+    <nav class="container">
+      <a href="#" id="logo">
+        <img src="assets/Logo.svg" alt="logomarca">
+      </a>
+
+
+      <ul id="primary-menu">
+        <li>
+          <a href="#">
+            <span>
+              <img src="assets/icons/MagnifyingGlass.svg" alt="ícone de lupa">
+              <span class="hide-on-mobile">Explorer</span>
+            </span>
+          </a>
+        </li>
+        <li class="hide-on-mobile">
+          <a href="#">Minhas viagens</a>
+        </li>
+        <li class="hide-on-mobile">
+          <a href="#">
+            <img src="assets/profile-pic.png" alt="imagem do perfil" />
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <header class="container">
+      <div id="profile">
+        <img src="assets/profile-pic.png" alt="imagem do perfil">
+        <div>
+          <h1>Isabela Torres</h1>
+          <p>
+            Amante de viagens, cultura e gastronomia. 🌍✈️
+            Aqui compartilho as histórias registradas em cada clique, explorando cantinhos fascinantes do nosso planeta a partir da movimentada cidade de São Paulo. 🏙️📸
+          </p>
         </div>
-      </header>
-    </div>
-    <main class="container">
-      <img src="assets/images/Image 01.png" alt="..." />
-      <img src="assets/images/Image 02.png" alt="..." />
-      <img src="assets/images/Image 03.png" alt="..." />
-      <img src="assets/images/Image 04.png" alt="..." />
-      <img src="assets/images/Image 05.png" alt="..." />
-      <img src="assets/images/Image 06.png" alt="..." />
-      <img src="assets/images/Image 07.png" alt="..." />
-      <img src="assets/images/Image 08.png" alt="..." />
-      <img src="assets/images/Image 09.png" alt="..." />
-      <img src="assets/images/Image 10.png" alt="..." />
-      <img src="assets/images/Image 11.png" alt="..." />
-      <img src="assets/images/Image 12.png" alt="..." />
-    </main>
+      </div>
+      <ul id="info">
+        <li>
+          <img src="assets/icons/MapPin.svg" alt="ícone de mapa">
+          <span>São Paulo, Brasil</span>
+        </li>
+        <li>
+          <img src="assets/icons/AirplaneTilt.svg" alt="ícone de avião">
+          <span>37 países</span>
+        </li>
+        <li>
+          <img src="assets/icons/Image.svg" alt="ícone de imagem">
+          <span>240 fotos</span>
+        </li>
+      </ul>
+    </header>
+  </div>
 
-    <footer class="container">
-      <span>Travelgram &copy; 2024</span>
-      <span>Termos de uso</span>
-      <span>Política de privacidade</span>
-    </footer>
-  </body>
+  <main class="container">
+    <img src="assets/images/Image 01.png" alt="imagem 1">
+    <img src="assets/images/Image 02.png" alt="imagem 2">
+    <img src="assets/images/Image 03.png" alt="imagem 3">
+    <img src="assets/images/Image 04.png" alt="imagem 4">
+    <img src="assets/images/Image 05.png" alt="imagem 5">
+    <img src="assets/images/Image 06.png" alt="imagem 6">
+    <img src="assets/images/Image 07.png" alt="imagem 7">
+    <img src="assets/images/Image 08.png" alt="imagem 8">
+    <img src="assets/images/Image 09.png" alt="imagem 9">
+    <img src="assets/images/Image 10.png" alt="imagem 10">
+    <img src="assets/images/Image 11.png" alt="imagem 11">
+    <img src="assets/images/Image 12.png" alt="imagem 12">
+  </main>
+
+  <footer class="container">
+    <span>Travelgram &copy; 2024</span>
+
+    <span>Termos de uso</span>
+    <span>Política de privacidade</span>
+  </footer>
+</body>
+
 </html>
