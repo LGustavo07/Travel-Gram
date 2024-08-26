@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Logo - Rocketseat" src="assets/logo.svg" width="150px" />
+  <img alt="Logo" src="assets/Logo.svg" width="150px" />
 </p>
 
 <p align="center">
